@@ -1,0 +1,1 @@
+SELECT * FROM payment where amount > 3;
