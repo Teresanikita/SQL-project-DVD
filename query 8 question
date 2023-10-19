@@ -1,0 +1,3 @@
+SELECT * FROM category
+
+WHERE name = 'Sci-Fi'
