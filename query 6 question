@@ -1,0 +1,2 @@
+select * from actor
+where not first_name LIKE 'A%' and not first_name LIKE 'B%';
