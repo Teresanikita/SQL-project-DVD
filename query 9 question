@@ -1,0 +1,7 @@
+SELECT film_id, title
+FROM film
+WHERE rental_rate > SOME(
+SELECT rental_rate
+	FROM film
+	WHERE replacement_cost>20
+	);
